@@ -1,11 +1,13 @@
-package cleanapi
+package main
 
 import (
   "github.com/gin-gonic/gin"
 )
 
 
-var ( portalController controllers.Portalcontroller = controllers.PortalControllerImpl())
+var (
+  portalController controllers.Portalcontroller = controllers.PortalControllerImpl()
+)
 
 
 func main(){

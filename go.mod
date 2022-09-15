@@ -1,4 +1,4 @@
-module github.com/TechLateef/cleanapi
+module github.com/TechLateef/portal-go-clean-api
 
 go 1.19
 
